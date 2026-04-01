@@ -21,3 +21,8 @@ TE AMP pins 3-1447221-5
 
 The TE AMP connectors mentioned above are standard connectors widely used by Holley in their products. Other options can be used as well, but these were my preference and what I had available.  Can also be found on DigiKey.
 
+### PCB Design
+<img src="\images\PCB_editor.png" width="50%">
+
+### Final Product
+<img src="\images\PCB_done.png" width="50%">
