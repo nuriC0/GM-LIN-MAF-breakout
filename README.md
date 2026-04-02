@@ -33,6 +33,6 @@ Code was written and deployed using free Visual Studio Code and [PlatformIO](htt
 
 The ESP32‑S3 is a dual‑core MCU. The included source code leverages both cores using FreeRTOS. One core is responsible for handling LIN communication along with the IAT and barometric pressure sensors, while the second core uses ESP‑NOW to transmit messages to other devices. The ESP‑NOW functionality can be commented out or disabled if it’s not needed. 
 
-The source code also supports the use of an IAT sensor from the LS9 engine. In general, any resistance‑based temperature sensor can be used; you simply need to configure the appropriate resistance and temperature ranges in the iatSensor.h file. These values are typically available online or can be obtained through tuning tools such as HP Tuners. 
+The source code also supports the use of an IAT sensor from the LS9 engine (12614717). In general, any resistance‑based temperature sensor can be used; you simply need to configure the appropriate resistance and temperature ranges in the iatSensor.h file. These values are typically available online or can be obtained through tuning tools such as HP Tuners. 
 
 
