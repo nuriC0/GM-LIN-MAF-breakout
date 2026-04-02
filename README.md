@@ -35,4 +35,4 @@ The ESP32‑S3 is a dual‑core MCU. The included source code leverages both cor
 
 The source code also supports the use of an IAT sensor from the LS9 engine (12614717). In general, any resistance‑based temperature sensor can be used; you simply need to configure the appropriate resistance and temperature ranges in the iatSensor.h file. These values are typically available online or can be obtained through tuning tools such as HP Tuners. 
 
-
+The current implementation supports barometric pressure values in the range of 89 kPa to 110 kPa. This limitation is imposed by the source code, not by LIN itself — LIN can support values from 0 kPa up to 255 kPa.  If a different range is required, the code can be adjusted accordingly.
