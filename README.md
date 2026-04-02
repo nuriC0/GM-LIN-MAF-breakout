@@ -1,4 +1,4 @@
-# GM MAF LIN Breakout
+# GM MAF LIN Breakout - @oz_tt_c8
 
 Over the last few years, GM has begun using MAF sensors that communicate **barometric pressure** and **intake air temperature (IAT)** to the ECM over a LIN 2.x bus.  This can become problematic in modified vehicles where boost pressure is introduced upstream of the MAF.  In those cases, barometric pressure readings can become erratic, which in turn affects other ECM control routines.
 Breaking out the IAT signal helps address this by allowing the temperature to be sourced from a location other than the MAF, providing more accurate data for modified configurations.
