@@ -5,7 +5,7 @@ Breaking out the IAT signal helps address this by allowing the temperature to be
 
 Another benefit is the ability to use an LS3 MAF on newer vehicles, providing improved resolution when needed.
 
-This GitHub project demonstrates how to design a PCB, identifies the required components, and provides the code needed to implement a breakout for a C8 Corvette MAF. (same for other GM cars)
+This GitHub project demonstrates how to design a PCB, identifies the required components, and provides the code needed to implement a breakout for a C8 Corvette MAF. (same for other GM cars)  This new device assumes the role of the LIN slave and is responsible for responding to requests from the ECM master. As a result, the LIN signal or wiring is no longer required on the MAF side.
 
 
 ### Required Parts
