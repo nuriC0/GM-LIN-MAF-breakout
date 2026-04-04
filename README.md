@@ -37,6 +37,4 @@ The source code also supports the use of an IAT sensor from the LS9 engine (1261
 
 The current implementation supports barometric pressure values in the range of 89 kPa to 110 kPa. This limitation is imposed by the source code, not by LIN itself — LIN can support values from 0 kPa up to 255 kPa.  If a different range is required, the code can be adjusted accordingly.
 
-## Appendix
 
-This PCB does not process MAF signal itself. If you need to divide the MAF frequency signal by half — such as to support airflow values beyond the 512 g/s limit of the stock C8 airflow table — you can add a 74HC74 or a similar flip‑flop to perform the division. Doing so effectively allows support for airflow readings by x2 (1024 g/s).  Highly suggest moving over to LS3 MAF at that point.
